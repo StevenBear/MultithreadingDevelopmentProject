@@ -17,7 +17,7 @@ void main()
 	bool wait;
 	ProjectEulerSolutions TrainingClass;
 
-	TrainingClass.Solution10();
+	TrainingClass.Solution11();
 
 	wait = true;
 }

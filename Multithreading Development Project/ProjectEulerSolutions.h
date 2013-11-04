@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <vector>
+#include <array>
 #include <algorithm>
 #include <string>
 #include <cstdint>
@@ -25,7 +26,6 @@ public:
 	void Solution8();//Greatest product of 5 numbers in the 1000 digit number (in function)
 	void Solution9();//find only pythagorean triple where a+b+c = 1000 then find its product (a*b*c)
 	void Solution10();//Sum all primes under 2 million
-	void Solution10Threaded();
-	void Solution10ThreadChecker();
+	void Solution11();//greatest product of 4 numbers in 10 by 10 grid
 };
 
