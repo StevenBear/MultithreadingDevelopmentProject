@@ -66,13 +66,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="HighResStopwatch.h" />
+    <ClInclude Include="Basic_Algorithm_Bank.h" />
+    <ClInclude Include="HighResStopwatch.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="ProjectEulerSolutions.h" />
     <ClInclude Include="Threadsafe_Queue.h" />
     <ClInclude Include="Threadsafe_Stack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HighResStopwatch.cpp" />
+    <ClCompile Include="Basic_Algorithm_Bank.cpp" />
+    <ClCompile Include="HighResStopwatch.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="maincpp.cpp" />
     <ClCompile Include="ProjectEulerSolutions.cpp" />
     <ClCompile Include="Threadsafe_Queue.cpp" />
